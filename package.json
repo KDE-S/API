@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "builds": [{
+    "src": "index.js",
+    "use": "@vercelS/node"
+  }],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "index.js"
+  }],
   "author": "",
   "license": "ISC",
   "dependencies": {
