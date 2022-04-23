@@ -2,12 +2,12 @@
   "name": "API",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "builds": [{
-    "src": "index.js",
+    "src": "server.js",
     "use": "@vercelS/node"
   }],
   "routes": [{
